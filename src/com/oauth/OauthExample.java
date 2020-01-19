@@ -102,6 +102,7 @@ public class OauthExample {
 				            when().
 				               get("https://rahulshettyacademy.com/getCourse.php").as(GetCourses.class);
 
+				   //Here we are deserialized means getting data from response and storing in JAVA Object. Whereas Serialization is used to set JAVA object to api as a body.
 		         System.out.println(gc.getLinkedIn());
 		         System.out.println(gc.getCourses().getApi().get(1).getCourseTitle());
 
