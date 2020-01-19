@@ -1,91 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8828" started-at="2019-12-10T01:26:06Z" finished-at="2019-12-10T01:26:15Z">
+  <suite name="Default suite" duration-ms="7774" started-at="2020-01-09T13:33:24Z" finished-at="2020-01-09T13:33:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8828" started-at="2019-12-10T01:26:06Z" finished-at="2019-12-10T01:26:15Z">
-      <class name="com.basics.AddBook">
-        <test-method status="PASS" signature="addBook(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.basics.AddBook@174d20a]" name="addBook" duration-ms="7915" started-at="2019-12-10T06:56:06Z" data-provider="getData" finished-at="2019-12-10T06:56:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Bahubali]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Raja]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1234]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Rajashekar]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="7774" started-at="2020-01-09T13:33:24Z" finished-at="2020-01-09T13:33:31Z">
+      <class name="com.basics.TestSelenium">
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.basics.TestSelenium@6093dd95]" name="launch" duration-ms="7765" started-at="2020-01-09T19:03:24Z" finished-at="2020-01-09T19:03:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addBook -->
-        <test-method status="PASS" signature="addBook(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.basics.AddBook@174d20a]" name="addBook" duration-ms="514" started-at="2019-12-10T06:56:14Z" data-provider="getData" finished-at="2019-12-10T06:56:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Saaho]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Prabhas]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[12341]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[kolor]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addBook -->
-        <test-method status="PASS" signature="addBook(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.basics.AddBook@174d20a]" name="addBook" duration-ms="291" started-at="2019-12-10T06:56:15Z" data-provider="getData" finished-at="2019-12-10T06:56:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Kaabali]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Rajnikanth]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[123341]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Aishwarya]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addBook -->
-      </class> <!-- com.basics.AddBook -->
+        </test-method> <!-- launch -->
+      </class> <!-- com.basics.TestSelenium -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
